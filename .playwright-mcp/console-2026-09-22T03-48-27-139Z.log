@@ -1,0 +1,3 @@
+[     300ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://automationteststore.com/index.php?rt=account/login:0
+[     884ms] [LOG] carouFredSel: No element found for "#brandcarousal". @ https://automationteststore.com/storefront/view/default/javascript/jquery.carouFredSel.min.js:14
+[  112537ms] [LOG] carouFredSel: No element found for "#brandcarousal". @ https://automationteststore.com/storefront/view/default/javascript/jquery.carouFredSel.min.js:14

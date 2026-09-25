@@ -1,0 +1,399 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://automationteststore.com/
+          - img "Automation Test Store" [ref=e8]
+        - generic [ref=e10]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Login or register" [ref=e15] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=account/login
+          - generic [ref=e17]:
+            - generic [ref=e18]: Main Menu
+            - text:      
+            - combobox [ref=e19]:
+              - option "Main Menu" [selected]
+              - option "Specials"
+              - option "Account"
+              - option "Login"
+              - option "Check Your Order"
+              - option "Cart"
+              - option "Checkout"
+          - generic [ref=e22]:
+            - textbox "Search Keywords" [ref=e23]
+            - generic "Go" [ref=e24] [cursor=pointer]: 
+    - generic [ref=e27]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - generic [ref=e31]: $ US Dollar
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link " 0 Items - $0.00" [ref=e37] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=checkout/cart
+            - generic [ref=e38]: 
+            - text: 0 Items - $0.00
+          - text:   
+      - generic [ref=e41]:
+        - link "Facebook" [ref=e42] [cursor=pointer]:
+          - /url: http://www.facebook.com
+        - link "Twitter" [ref=e43] [cursor=pointer]:
+          - /url: https://twitter.com/
+        - link "Linkedin" [ref=e44] [cursor=pointer]:
+          - /url: https://uk.linkedin.com/
+  - navigation [ref=e48]:
+    - list [ref=e49]:
+      - listitem [ref=e50]:
+        - link "Home" [ref=e51] [cursor=pointer]:
+          - /url: https://automationteststore.com/
+        - text:      
+      - listitem [ref=e52]:
+        - link "Apparel & accessories" [ref=e53] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=68
+      - listitem [ref=e54]:
+        - link "Makeup" [ref=e55] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=36
+      - listitem [ref=e56]:
+        - link "Skincare" [ref=e57] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=43
+      - listitem [ref=e58]:
+        - link "Fragrance" [ref=e59] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=49
+      - listitem [ref=e60]:
+        - link "Men" [ref=e61] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=58
+      - listitem [ref=e62]:
+        - link "Hair Care" [ref=e63] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=52
+      - listitem [ref=e64]:
+        - link "Books" [ref=e65] [cursor=pointer]:
+          - /url: https://automationteststore.com/index.php?rt=product/category&path=65
+  - generic [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: 
+        - generic [ref=e78]:
+          - heading "Fast shipping" [level=2] [ref=e79]
+          - text: For every order placed!
+      - generic [ref=e80]:
+        - generic [ref=e81]: 
+        - generic [ref=e83]:
+          - heading "Easy Payments" [level=2] [ref=e84]
+          - text: Check out as guest!
+      - generic [ref=e85]:
+        - generic [ref=e86]: 
+        - generic [ref=e88]:
+          - heading "Shipping Options" [level=2] [ref=e89]
+          - text: Get items faster!
+      - generic [ref=e90]:
+        - generic [ref=e91]: 
+        - generic [ref=e93]:
+          - heading "Large Variety" [level=2] [ref=e94]
+          - text: Many different products available
+    - heading "Welcome to the Automation Test Store! This is not a real store. No orders are actually placed or any payments taken. It is recommended you use test data when practicing using this site. This site is to be used for educational purposes only. Enjoy!" [level=4] [ref=e98]
+    - generic [ref=e101]:
+      - heading "FeaturedSee Our Most featured Products" [level=1] [ref=e102]
+      - generic:
+        - generic [ref=e103]:
+          - link "Skinsheen Bronzer Stick" [ref=e106] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+          - generic [ref=e107]:
+            - link [ref=e108] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+            - generic [ref=e109]:
+              - link "" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e112]: $29.50
+        - generic [ref=e114]:
+          - link "BeneFit Girl Meets Pearl" [ref=e117] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+          - generic [ref=e118]:
+            - link [ref=e120] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+            - generic [ref=e121]:
+              - link "" [ref=e122] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e124]:
+                - generic [ref=e125]: $19.00
+                - generic [ref=e126]: $30.00
+        - generic [ref=e127]:
+          - link "Benefit Bella Bamba" [ref=e130] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=52
+          - generic [ref=e131]:
+            - link [ref=e132] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=52
+            - generic [ref=e133]:
+              - link "" [ref=e134] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e136]: $28.00
+        - generic [ref=e138]:
+          - link "Tropiques Minerale Loose Bronzer" [ref=e141] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+          - generic [ref=e142]:
+            - link [ref=e143] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+            - generic [ref=e144]:
+              - link "" [ref=e145] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+              - generic [ref=e147]: $38.50
+    - generic [ref=e151]:
+      - heading "Latest ProductsSee New Products" [level=1] [ref=e152]
+      - generic:
+        - generic [ref=e153]:
+          - link "Absolute Anti-Age Spot Replenishing Unifying TreatmentSPF 15" [ref=e156] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=68
+          - generic [ref=e157]:
+            - link [ref=e158] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=68
+            - generic [ref=e159]:
+              - link "" [ref=e160] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e162]: $42.00
+        - generic [ref=e164]:
+          - link "Absolue Eye Precious Cells" [ref=e167] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+          - generic [ref=e168]:
+            - link [ref=e170] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+            - generic [ref=e171]:
+              - link "" [ref=e172] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e174]:
+                - generic [ref=e175]: $89.00
+                - generic [ref=e176]: $105.00
+        - generic [ref=e177]:
+          - link "Total Moisture Facial Cream" [ref=e180] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=66
+          - generic [ref=e181]:
+            - link [ref=e182] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=66
+            - generic [ref=e183]:
+              - link "" [ref=e184] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e186]: $38.00
+        - generic [ref=e188]:
+          - link "Flash Bronzer Body Gel" [ref=e191] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=67
+          - generic [ref=e192]:
+            - link [ref=e194] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=67
+            - generic [ref=e195]:
+              - link "" [ref=e196] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e198]:
+                - generic [ref=e199]: $29.00
+                - generic [ref=e200]: $34.50
+    - generic [ref=e203]:
+      - heading "BestsellersSee Best Selling Products" [level=1] [ref=e204]
+      - generic:
+        - generic [ref=e205]:
+          - link "Skinsheen Bronzer Stick" [ref=e208] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+          - generic [ref=e209]:
+            - link [ref=e210] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+            - generic [ref=e211]:
+              - link "" [ref=e212] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e214]: $29.50
+        - generic [ref=e216]:
+          - link "New Ladies High Wedge Heel Toe Thong Diamante Flip Flop Sandals" [ref=e219] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=116
+          - generic [ref=e220]:
+            - link [ref=e221] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=116
+            - generic [ref=e222]:
+              - link "" [ref=e223] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=product/product&product_id=116
+              - generic [ref=e225]: $26.00
+        - generic [ref=e227]:
+          - link "Womens high heel point toe stiletto sandals ankle strap court shoes" [ref=e230] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=118
+          - generic [ref=e231]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=118
+            - generic [ref=e233]:
+              - link "" [ref=e234] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=product/product&product_id=118
+              - generic [ref=e236]: $26.00
+        - generic [ref=e238]:
+          - link "Tropiques Minerale Loose Bronzer" [ref=e241] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+          - generic [ref=e242]:
+            - link [ref=e243] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+            - generic [ref=e244]:
+              - link "" [ref=e245] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+              - generic [ref=e247]: $38.50
+    - generic [ref=e251]:
+      - heading "SpecialsSee Products On Sale" [level=1] [ref=e252]
+      - generic:
+        - generic [ref=e253]:
+          - link "Absolue Eye Precious Cells" [ref=e256] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+          - generic [ref=e257]:
+            - link [ref=e259] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+            - generic [ref=e260]:
+              - link "" [ref=e261] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e263]:
+                - generic [ref=e264]: $89.00
+                - generic [ref=e265]: $105.00
+        - generic [ref=e266]:
+          - link "Acqua Di Gio Pour Homme" [ref=e269] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=80
+          - generic [ref=e270]:
+            - link [ref=e272] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=80
+            - generic [ref=e273]:
+              - link "" [ref=e274] [cursor=pointer]:
+                - /url: https://automationteststore.com/index.php?rt=product/product&product_id=80
+              - generic [ref=e276]:
+                - generic [ref=e277]: $45.00
+                - generic [ref=e278]: $59.00
+        - generic [ref=e279]:
+          - link "BeneFit Girl Meets Pearl" [ref=e282] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+          - generic [ref=e283]:
+            - link [ref=e285] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+            - generic [ref=e286]:
+              - link "" [ref=e287] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e289]:
+                - generic [ref=e290]: $19.00
+                - generic [ref=e291]: $30.00
+        - generic [ref=e292]:
+          - link "Brunette expressions Conditioner" [ref=e295] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/product&product_id=72
+          - generic [ref=e296]:
+            - link [ref=e298] [cursor=pointer]:
+              - /url: https://automationteststore.com/index.php?rt=product/product&product_id=72
+            - generic [ref=e299]:
+              - link "" [ref=e300] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e302]:
+                - generic [ref=e303]: $24.00
+                - generic [ref=e304]: $27.00
+    - generic [ref=e307]:
+      - heading "Brands Scrolling List" [level=1] [ref=e308]
+      - list [ref=e311]:
+        - listitem [ref=e312]:
+          - link [ref=e314] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=12
+            - img "Benefit" [ref=e315]
+        - listitem [ref=e316]:
+          - link [ref=e318] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=17
+            - img "Pantene" [ref=e319]
+        - listitem [ref=e320]:
+          - link [ref=e322] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=11
+            - img "M·A·C" [ref=e323]
+        - listitem [ref=e324]:
+          - link [ref=e326] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=15
+            - img "Lancôme" [ref=e327]
+        - listitem [ref=e328]:
+          - link [ref=e330] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=20
+            - img "Gucci" [ref=e331]
+        - listitem [ref=e332]:
+          - link [ref=e334] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=19
+            - img "Giorgio Armani" [ref=e335]
+        - listitem [ref=e336]:
+          - link [ref=e338] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=18
+            - img "Dove" [ref=e339]
+        - listitem [ref=e340]:
+          - link [ref=e342] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=13
+            - img "Calvin Klein" [ref=e343]
+        - listitem [ref=e344]:
+          - link [ref=e346] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=14
+            - img "Bvlgari" [ref=e347]
+        - listitem [ref=e348]:
+          - link [ref=e350] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=product/manufacturer&manufacturer_id=16
+            - img "Sephora" [ref=e351]
+  - contentinfo [ref=e355]:
+    - generic [ref=e357]:
+      - generic [ref=e360]:
+        - heading "About Us" [level=2] [ref=e361]
+        - paragraph [ref=e362]: This store has been created to enable students to practice their automation testing skills. This is not a real store, no orders are actually placed or payments taken. This store is to be used for educational purposes only.
+      - generic [ref=e365]:
+        - heading "Contact Us" [level=2] [ref=e366]
+        - list [ref=e367]:
+          - listitem [ref=e368]:
+            - generic [ref=e369]: 
+            - text: +123 456 7890
+          - listitem [ref=e370]:
+            - generic [ref=e371]: 
+            - text: admin@automationteststore.com
+      - generic [ref=e374]:
+        - heading "Testimonials" [level=2] [ref=e375]
+        - generic [ref=e376]:
+          - generic:
+            - list
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - generic [ref=e379]: "1"
+            - listitem [ref=e380]:
+              - generic [ref=e381] [cursor=pointer]: "2"
+            - listitem [ref=e382]:
+              - generic [ref=e383] [cursor=pointer]: "3"
+            - listitem [ref=e384]:
+              - generic [ref=e385] [cursor=pointer]: "4"
+      - generic [ref=e388]:
+        - heading "Newsletter Signup" [level=2] [ref=e389]
+        - generic [ref=e390]:  Sign up to Our Newsletter & get attractive Offers by subscribing to our newsletters.
+        - generic [ref=e393]:
+          - textbox "Subscribe to Newsletter" [ref=e394]
+          - button "Subscribe" [ref=e396] [cursor=pointer]
+    - generic [ref=e398]:
+      - list [ref=e401]:
+        - listitem [ref=e402]:
+          - link "About Us" [ref=e404] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/content&content_id=1
+        - listitem [ref=e405]:
+          - link "Privacy Policy" [ref=e407] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/content&content_id=2
+        - listitem [ref=e408]:
+          - link "Return Policy" [ref=e410] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/content&content_id=3
+        - listitem [ref=e411]:
+          - link "Shipping" [ref=e413] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/content&content_id=4
+        - listitem [ref=e414]:
+          - link "Contact Us" [ref=e415] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/contact
+        - listitem [ref=e416]:
+          - link "Site Map" [ref=e417] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=content/sitemap
+        - listitem [ref=e418]:
+          - link "Login" [ref=e419] [cursor=pointer]:
+            - /url: https://automationteststore.com/index.php?rt=account/login
+      - generic [ref=e421]:
+        - link "Facebook" [ref=e422] [cursor=pointer]:
+          - /url: http://www.facebook.com
+        - link "Twitter" [ref=e423] [cursor=pointer]:
+          - /url: https://twitter.com/
+        - link "Linkedin" [ref=e424] [cursor=pointer]:
+          - /url: https://uk.linkedin.com/
+    - generic [ref=e426]:
+      - img "payments" [ref=e429]
+      - generic [ref=e430]:
+        - text: Powered By
+        - link "AbanteCart" [ref=e431] [cursor=pointer]:
+          - /url: http://www.abantecart.com
+        - text: Automation Test Store © 2026
+      - link [ref=e434] [cursor=pointer]:
+        - /url: http://www.abantecart.com/contribute-to-abantecart
+        - img "Support AbanteCart eCommerce" [ref=e435]
+    - link "Back to top" [ref=e436] [cursor=pointer]:
+      - /url: "#"

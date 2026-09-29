@@ -17,11 +17,14 @@ def get_openai_client():
     return OpenAI(api_key=api_key)
 
 
-def ask_openai(prompt: str) -> str:
+def ask_openai(prompt: str, instructions: str | None = None) -> str:
     client = get_openai_client()
 
+    # "instructions" is the system prompt (the agent's .md file);
+    # "input" is the data the agent works on (story, test cases, test output).
     response = client.responses.create(
         model="gpt-5.6-luna",
+        instructions=instructions,
         input=prompt,
     )
 

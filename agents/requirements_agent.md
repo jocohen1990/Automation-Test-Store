@@ -32,7 +32,8 @@ Anything you invent here becomes a test case, and later a false defect. Accuracy
 ## Workflow
 
 ### Step 1 — Fetch the issue
-- Call `jira_get_issue` with the key from `$ARGUMENTS`.
+- If the issue content is provided in the input, use it and do not call the tool.
+- Otherwise, call `jira_get_issue` with the key from `$ARGUMENTS`.
 - Validate the key looks like `PROJECT-123`. If no key was given, ask for one and stop.
 - Use `jira_search` only to fetch issues **linked** from this story (e.g., parent epic, sub-tasks) when the story explicitly references them. Label anything from a linked issue with that issue's key; it is secondary context, not part of this story's scope.
 

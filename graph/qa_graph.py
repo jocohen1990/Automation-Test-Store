@@ -1,8 +1,13 @@
 import subprocess
 
 from langgraph.graph import StateGraph, END
+from langgraph.types import interrupt
+from langgraph.checkpoint.memory import InMemorySaver
+
 
 from graph.state import QAState
+
+from integrations.jira_client import get_jira_client, get_issue, create_defect
 
 # ---------------------------
 # Node functions
@@ -26,6 +31,7 @@ def run_playwright_tests(state):
         capture_output=True,
         text=True
     )
+    
 
     if result.returncode == 0:
         test_status = "PASSED"
@@ -38,6 +44,21 @@ def run_playwright_tests(state):
         "test_output": result.stdout,
         "test_errors": result.stderr,
     }
+    
+def jira_defect_node(state: QAState):
+    # Create a defect in Jira using the provided state information
+    failure_analysis = state.get("failure_analysis", "")
+    
+    defect = create_defect(
+        project="ATS",
+        summary=f"Automated test failure for {state.get('issue_key', 'unknown issue')}",
+        description=failure_analysis
+    )
+    
+    return {
+        "jira_defect": defect.key
+    }
+    
     
 # ---------------------------
 # Build the graph
@@ -67,6 +88,12 @@ graph.add_node(
     run_playwright_tests
 )
 
+graph.add_node(
+    "jira_defect_node",
+    jira_defect_node
+)
+
+
 # ---------------------------
 # Connect nodes
 # ---------------------------
@@ -90,6 +117,11 @@ graph.add_edge(
 
 graph.add_edge(
     "run_playwright_tests",
+    END
+)
+
+graph.add_edge(
+    "jira_defect",
     END
 )
 

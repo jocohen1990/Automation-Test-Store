@@ -13,5 +13,6 @@ class QAState(TypedDict, total=False):
     test_errors: str
     
     failure_analysis: str
+    defect_decision: str # "create" | "skip" | "investigate"
     jira_defect: str
    

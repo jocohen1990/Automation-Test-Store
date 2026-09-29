@@ -30,22 +30,21 @@ def get_issue(issue_key: str, fields: str | list[str] | None = None):
     return client.issue(issue_key, fields=jira_fields)
 
 
-# def create_issue(
-#     project: str,
-#     summary: str,
-#     description: str = "",
-#     issue_type: str = "Task",
-#     **extra_fields: Any,
-# ):
-#     client = get_jira_client()
-#     payload = {
-#         "project": project,
-#         "summary": summary,
-#         "description": description,
-#         "issuetype": {"name": issue_type},
-#         **extra_fields,
-#     }
-#     return client.create_issue(**payload)
+def create_defect(
+    project: str,
+    summary: str,
+    description: str = "",
+    
+):
+    client = get_jira_client()
+    
+    issue_fields = {
+        "project": {"key": project},
+        "summary": summary,
+        "description": description,
+        "issuetype": {"name": "Bug"},
+    }
+    return client.create_issue(fields=issue_fields)
 
 
 # def add_comment(issue_key: str, body: str):
@@ -59,9 +58,9 @@ def get_issue(issue_key: str, fields: str | list[str] | None = None):
 
 
 #__all__ = [
-    #"get_jira_client",
-    #"get_issue",
-    # "create_issue",
-    # "add_comment",
-    # "transition_issue",
+    "get_jira_client",
+    "get_issue",
+    "create_defect",
+    "add_comment",
+    "transition_issue",
 # ]

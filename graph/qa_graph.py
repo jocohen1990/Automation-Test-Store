@@ -34,6 +34,7 @@ def run_playwright_tests(state):
 
     return {
         "test_status": test_status,
+        "test_exit_code": result.returncode,
         "test_output": result.stdout,
         "test_errors": result.stderr,
     }

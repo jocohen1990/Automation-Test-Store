@@ -1,11 +1,17 @@
 from typing import TypedDict
 
 
-class QAState(TypedDict):
+class QAState(TypedDict, total=False):
     issue_key: str
     requirements: str
-    test_cases: list
-    test_results: str
+    generated_tests: str
+    reviewed_tests: str
+    
+    test_status: str
+    test_exit_code: int
+    test_output: str
+    test_errors: str
+    
     failure_analysis: str
     jira_defect: str
-    review: str
+   

@@ -57,10 +57,10 @@ def create_defect(
 #     return client.transition_issue(issue_key, transition, **kwargs)
 
 
-#__all__ = [
+__all__ = [
     "get_jira_client",
     "get_issue",
     "create_defect",
-    "add_comment",
-    "transition_issue",
-# ]
+    #"add_comment",
+    #"transition_issue",
+ ]

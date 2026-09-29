@@ -1,5 +1,7 @@
 .env
 .venv/
-_pycache__/
+__pycache__/
 .pytest_cache/
 test_results/
+test_cases/
+.playwright-mcp/
